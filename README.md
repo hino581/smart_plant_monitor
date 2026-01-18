@@ -34,7 +34,11 @@ This enables **remote irrigation control and system tuning** without physical ac
 
 ## Installation
 ```bash
-git clone https://github.com/yourname/smart_plant_monitor.git
+git clone https://github.com/hino581/smart_plant_monitor.git
 cd smart_plant_monitor
+python -m venv pyvenv
+(macOS) . pyvenv/bin/activate
+(windows) "pyvenv/Scripts/activate.bat"
 pip install -r requirements.txt
 python run.py
+```
